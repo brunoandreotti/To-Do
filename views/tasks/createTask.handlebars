@@ -1,0 +1,12 @@
+<h1>Criar tarefa</h1>
+<form action="/tasks/add" method="POST">
+  <div class="form-control">
+    <label for="title">Título da tarefa:</label>
+    <input type="text" name="title" placeholder="Nome da sua tarefa" id="task-name">
+  </div>
+  <div class="form-control">
+    <label for="description">Descrição:</label>
+    <textarea name="description" placeholder="Descrição da sua tarefa" id="task-description"></textarea>
+  </div>
+  <input type="submit" value="Criar tarefa">
+</form>
