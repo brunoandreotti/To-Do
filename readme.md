@@ -58,4 +58,4 @@ Na aplicação é possível cadastrar tarefas com nome e descrição, marcar as 
 
 
 ---
-**Desenvolvido  por [Bruno Andreotti](www.linkedin.com/in/bruno-andreotti/).** 
+**Desenvolvido por [Bruno Andreotti](www.linkedin.com/in/bruno-andreotti/).** 
