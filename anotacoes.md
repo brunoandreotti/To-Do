@@ -10,9 +10,17 @@
 
 
 
-=> Segundo passo: é necessario fazer as configurações da conexão do sequelize com o banco de dados:
+=> Segundo passo: é necessario fazer as configurações da conexão do sequelize com o banco de dados e testar a conexão:
   const { Sequelize } = require('sequelize')
   const sequelize = new Sequelize(dbURL)
+
+  try {
+  sequelize.authenticate()
+  console.log('Conectado no DB com sucesso!')
+
+} catch(err) {
+  console.log('Não foi possível conectar no banco', err)
+}
 
   module.exports = sequelize
 
@@ -77,6 +85,8 @@ Os dados será atualizados através de um método no Model
 
 => Marcando tarefa como completa
 É necessário criar uma rota POST para atualizar o atributo 'done' das tarefas
+
+
 
 
 

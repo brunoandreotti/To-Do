@@ -29,6 +29,9 @@ app.use(express.static('public'))
 //Rotas
 app.use('/tasks', tasksRoutes)
 
+app.use('/users')
+
+
 
 
 
